@@ -25,7 +25,7 @@ export default function Home() {
                 </p>
                 <pre className="bg-gray-200 p-4 rounded w-full text-center">
                     <code className="flex items-center flex-wrap mx-auto w-fit">
-                        {"http://localhost:3000/label/:name/:prompt/:color"
+                        {"https://labels-omega.vercel.app/label/:name/:prompt/:color"
                             .split("")
                             .map((text) => (
                                 <p className="inline">{text}</p>
